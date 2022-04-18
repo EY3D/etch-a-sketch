@@ -1,0 +1,19 @@
+.topButtons {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.items {
+  background-color: lightgrey;
+  outline: 1px solid grey;
+}
+
+#container {
+  height: 800px;
+  width: 800px;
+  outline: 1px solid teal;
+  display: flex;
+  margin: auto;
+  align-items: stretch;
+}
