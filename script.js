@@ -26,9 +26,9 @@ function askInt() {
 function newCanvas(x) {
   if (x<4 || x>100)
   {
-    alert("Error! Please enter a number from 4 to 100.");
-    askInt();
-    newCanvas(gridInt);
+    if(!alert('Error! Please enter a number from 4 to 100!')){
+      window.location.reload();
+    }
   }
   
   for (let i = 0; i < gridInt; i++){
